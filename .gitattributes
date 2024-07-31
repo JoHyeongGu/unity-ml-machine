@@ -1,0 +1,6 @@
+ml-machine/MLvenv filter=lfs diff=lfs merge=lfs -text
+ml-machine/MLvenv/Scripts filter=lfs diff=lfs merge=lfs -text
+ml-machine/MLvenv/pyvenv.cfg filter=lfs diff=lfs merge=lfs -text
+ml-machine/MLvenv/share filter=lfs diff=lfs merge=lfs -text
+ml-machine/MLvenv/Include filter=lfs diff=lfs merge=lfs -text
+ml-machine/MLvenv/Lib filter=lfs diff=lfs merge=lfs -text
