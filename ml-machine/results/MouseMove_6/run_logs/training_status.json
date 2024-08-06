@@ -1,0 +1,65 @@
+{
+    "Agent Controller": {
+        "checkpoints": [
+            {
+                "steps": 82062461,
+                "file_path": "results\\MouseMove_6\\Agent Controller\\Agent Controller-82062461.onnx",
+                "reward": null,
+                "creation_time": 1722925547.8216364,
+                "auxillary_file_paths": [
+                    "results\\MouseMove_6\\Agent Controller\\Agent Controller-82062461.pt"
+                ]
+            },
+            {
+                "steps": 82072734,
+                "file_path": "results\\MouseMove_6\\Agent Controller\\Agent Controller-82072734.onnx",
+                "reward": null,
+                "creation_time": 1722927813.7273552,
+                "auxillary_file_paths": [
+                    "results\\MouseMove_6\\Agent Controller\\Agent Controller-82072734.pt"
+                ]
+            },
+            {
+                "steps": 82999994,
+                "file_path": "results\\MouseMove_6\\Agent Controller\\Agent Controller-82999994.onnx",
+                "reward": 9.685107484459877,
+                "creation_time": 1722928509.5138273,
+                "auxillary_file_paths": [
+                    "results\\MouseMove_6\\Agent Controller\\Agent Controller-82999994.pt"
+                ]
+            },
+            {
+                "steps": 83999998,
+                "file_path": "results\\MouseMove_6\\Agent Controller\\Agent Controller-83999998.onnx",
+                "reward": 20.098013710975646,
+                "creation_time": 1722928852.7726483,
+                "auxillary_file_paths": [
+                    "results\\MouseMove_6\\Agent Controller\\Agent Controller-83999998.pt"
+                ]
+            },
+            {
+                "steps": 84312939,
+                "file_path": "results\\MouseMove_6\\Agent Controller\\Agent Controller-84312939.onnx",
+                "reward": 16.895933822581643,
+                "creation_time": 1722928963.1882818,
+                "auxillary_file_paths": [
+                    "results\\MouseMove_6\\Agent Controller\\Agent Controller-84312939.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 84312939,
+            "file_path": "results\\MouseMove_6\\Agent Controller.onnx",
+            "reward": 16.895933822581643,
+            "creation_time": 1722928963.1882818,
+            "auxillary_file_paths": [
+                "results\\MouseMove_6\\Agent Controller\\Agent Controller-84312939.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.4.0+cpu"
+    }
+}

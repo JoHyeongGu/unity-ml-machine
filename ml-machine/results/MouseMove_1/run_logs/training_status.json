@@ -1,0 +1,47 @@
+{
+    "Agent Controller": {
+        "checkpoints": [
+            {
+                "steps": 499993,
+                "file_path": "results\\MouseMove_1\\Agent Controller\\Agent Controller-499993.onnx",
+                "reward": -0.9946236559139785,
+                "creation_time": 1722366738.6269064,
+                "auxillary_file_paths": [
+                    "results\\MouseMove_1\\Agent Controller\\Agent Controller-499993.pt"
+                ]
+            },
+            {
+                "steps": 500004,
+                "file_path": "results\\MouseMove_1\\Agent Controller\\Agent Controller-500004.onnx",
+                "reward": -0.9973190348525469,
+                "creation_time": 1722366738.6622083,
+                "auxillary_file_paths": [
+                    "results\\MouseMove_1\\Agent Controller\\Agent Controller-500004.pt"
+                ]
+            },
+            {
+                "steps": 500004,
+                "file_path": "results\\MouseMove_1\\Agent Controller\\Agent Controller-500004.onnx",
+                "reward": null,
+                "creation_time": 1722388262.7503083,
+                "auxillary_file_paths": [
+                    "results\\MouseMove_1\\Agent Controller\\Agent Controller-500004.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500004,
+            "file_path": "results\\MouseMove_1\\Agent Controller.onnx",
+            "reward": null,
+            "creation_time": 1722388262.7503083,
+            "auxillary_file_paths": [
+                "results\\MouseMove_1\\Agent Controller\\Agent Controller-500004.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.4.0+cpu"
+    }
+}

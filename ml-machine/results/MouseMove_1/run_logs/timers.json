@@ -1,0 +1,54 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1722388240",
+        "python_version": "3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Github\\unity-ml-machine\\ml-machine\\MLvenv\\Scripts\\mlagents-learn --run-id=MouseMove_1 --resume",
+        "mlagents_version": "0.30.0",
+        "mlagents_envs_version": "0.30.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.4.0+cpu",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1722388262"
+    },
+    "total": 22.6323301,
+    "count": 1,
+    "self": 0.005367500000001968,
+    "children": {
+        "run_training.setup": {
+            "total": 0.052336200000000055,
+            "count": 1,
+            "self": 0.052336200000000055
+        },
+        "TrainerController.start_learning": {
+            "total": 22.5746264,
+            "count": 1,
+            "self": 8.00000000005241e-05,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 22.4118353,
+                    "count": 1,
+                    "self": 22.4118353
+                },
+                "trainer_threads": {
+                    "total": 5.999999999062311e-07,
+                    "count": 1,
+                    "self": 5.999999999062311e-07
+                },
+                "TrainerController._save_models": {
+                    "total": 0.16271049999999931,
+                    "count": 1,
+                    "self": 0.005872599999996453,
+                    "children": {
+                        "RLTrainer._checkpoint": {
+                            "total": 0.15683790000000286,
+                            "count": 1,
+                            "self": 0.15683790000000286
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
